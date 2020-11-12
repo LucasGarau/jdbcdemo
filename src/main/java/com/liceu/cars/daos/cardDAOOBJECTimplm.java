@@ -1,6 +1,7 @@
 package com.liceu.cars.daos;
 
 import com.liceu.cars.daos.CarDAO;
+import com.liceu.cars.model.Car;
 
 import java.util.List;
 
@@ -29,6 +30,27 @@ public class cardDAOOBJECTimplm implements CarDAO {
 
     }
 
+    /*
+        @Override
+        public void add(Car c) {
+
+        }
+
+        @Override
+        public void add(Car c) {
+
+        }
+
+        @Override
+        public void delete(Car c) {
+
+        }
+
+        @Override
+        public void update(Car c) {
+
+        }
+    */
     @Override
     public Car geFromId(int id) {
         return null;
